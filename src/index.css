@@ -1,0 +1,26 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  text-align: center;
+}
+.highcharts-credits {
+  display: none;
+}
+
+.containerChart {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapperChart {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
